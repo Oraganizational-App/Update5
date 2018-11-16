@@ -1,0 +1,319 @@
+
+.main-heading {
+  font-family: 'Ubuntu', impact, sans-serif;
+  font-size: 1.25em;
+  background-color: rgb(114, 122, 226);
+  color: #fff;
+  line-height: 2;
+  text-align: center;
+  text-shadow: 1px 1px 0px black;
+}
+
+
+body {
+  margin:0;
+  padding:0;
+  background-color: #425669;
+  font-family: 'Futura', arial, sans-serif;
+  color: #222;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  margin-right: 2em;
+}
+
+
+.logo{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.dropbtn.main{
+  background-color: #2f3d4a;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width:100%;
+  text-align:left;
+  font-weight: bold;
+  margin-top:10px;
+}
+
+/* .dropbtn i{
+  float:left;
+  margin-right: 10px;
+} */
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0c3049;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.show {
+  display: block;}
+
+
+.middle_bar{
+  font-family: 'Futura', arial, sans-serif;
+  text-align:center;
+  background-color: #ffffff;
+  margin-top:30px;
+
+}
+
+
+
+/*all tasks.css*/
+
+.dropbtn.main.work {
+  background-color: #e29f5f;
+}
+
+.task {
+  background-color: #2f3d4a;
+  padding: 1px;
+  color: white;
+  font-family: 'Futura', arial, sans-serif;
+  text-align: center;
+
+}
+
+/* all tasks tab */
+ .line1 {
+  margin-top: 0px;
+   height: 9px;
+   background-color: white;
+ }
+
+.content1 {
+  color: white;
+  background-color: #e29f5f;
+  text-align: center;
+    font-family: 'Futura', arial, sans-serif;
+
+}
+
+.complete.one {
+  background-color: #e69241;
+  color: rgb(187, 186, 186);
+
+}
+
+
+/* important tasks tab */
+
+.dropbtn.main.imp {
+  background-color: #84a2e6;
+}
+
+.line2 {
+ margin-top: 0px;
+  height: 9px;
+  background-color: #ffffff;
+}
+
+.content2 {
+ color: white;
+ background-color: #84a2e6;
+ text-align: center;
+
+   font-family: 'Futura', arial, sans-serif;
+
+}
+
+.complete.two {
+  background-color: #6088e4;
+  color: rgb(203, 203, 203);
+  /* border: thin solid;
+  border-radius: 1em; */
+
+}
+
+
+/* work tasks tab */
+
+.dropbtn.main.work {
+  background-color: rgb(82, 166, 128);
+}
+
+.line3 {
+ margin-top: 0px;
+  height: 9px;
+  background-color: white;
+}
+
+.content3 {
+ color: white;
+ background-color: rgb(82, 166, 128);
+ text-align: center;
+   font-family: 'Futura', arial, sans-serif;
+
+}
+
+.complete.three {
+  background-color: rgb(28, 148, 93);
+  color: rgb(203, 203, 203);
+
+}
+
+
+/* home tasks tab */
+
+.dropbtn.main.home {
+  background-color: #9b80c6;
+
+}
+
+.line4 {
+ margin-top: 0px;
+  height: 9px;
+  background-color: white;
+}
+
+.content4 {
+ color: white;
+ background-color: #9b80c6;
+ text-align: center;
+   font-family: 'Futura', arial, sans-serif;
+
+}
+
+.complete.four {
+  background-color: #885fc9;
+  color: rgb(203, 203, 203);
+
+}
+
+/* notifications tasks tab */
+.line5 {
+ margin-top: 0px;
+  height: 9px;
+  background-color: white;
+}
+
+.content5 {
+ color: white;
+ background-color: #e75353;
+ text-align: center;
+   font-family: 'Futura', arial, sans-serif;
+
+}
+
+.complete.five {
+  background-color: #e83232;
+  color: rgb(203, 203, 203);
+
+}
+
+.complete.dropDown {
+  background-color: #25313c;
+  color: rgb(176, 173, 173);
+}
+
+.container {
+  padding: 1em;
+  margin: .2em;
+  text-align: center;
+  /* border-style: solid;
+  border-width: thin;
+  border-color: white; */
+  font-family: 'Futura', arial, sans-serif;
+}
+
+.task-list{
+  list-style: none;
+  margin: 1em 0;
+  text-align: left;
+  display: grid;
+  grid-row: 1fr;
+}
+
+.btn {
+    background-color:transparent ;
+    border: none;
+    color: white;
+    padding: 1px ;
+    font-size: 2em;
+    float:left;
+    padding: 12px;
+}
+
+.dropbtn{
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  border: none;
+  text-align:left;
+}
+
+.dropbtn i{
+  float:left;
+}
+
+
+.dropdown {
+    position: absolute;
+    text-align: center;
+    display: grid;
+    grid-row: 1fr;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: #2f3d4a;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: grid;
+    grid-row: 1fr;
+}
+
+
+.show {
+  display: grid;
+  grid-row: 1fr;}
+
+.noti{
+  text-align: center;
+  position: relative;
+  padding-left: 40px;
+
+}
